@@ -1,0 +1,119 @@
+.caseList{
+  .el-form .el-form-item{
+    margin-right: 0;
+  }
+  .caseList-form .el-form-item__label{
+    width: 100px;
+    padding-right: 10px;
+  }
+  .el-form .el-form-item__content, .el-date-editor.el-input{
+    width: 185px;
+  }
+  .el-radio__label{
+    display: none;
+  }
+  .avatar-uploader-icon{
+    line-height: 178px!important;
+  }
+}
+
+.numInput{
+  width: 81px;
+}
+.btn-group{
+  padding-left: 33px;
+  margin-bottom: 20px;
+}
+.btn-group-div{
+  display: inline-block;
+  margin-left: 10px;
+}
+
+//案件详情
+.caseDetail{
+  position: relative;
+  .el-col-8{
+    margin-bottom: 15px;
+  }
+  .backBtn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 5;
+  }
+}
+.infoList{
+  margin-bottom: 15px;
+  border-bottom: 1px solid @borderColor;
+  &:last-child{
+    border: none;
+  }
+}
+.caseInfo{
+  font-size: 14px;
+  label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+  }
+}
+.annexInfo{
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(51,51,51,0.7);
+}
+.annexInfo-cnt{
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  width: 60%;
+  height: 80%;
+  margin-left: -30%;
+  background-color: @bgWhite;
+  border-radius: 5px;
+  overflow-y: scroll;
+}
+.annexInfo-tit{
+  font-size: 20px;
+  padding: 20px 30px;
+}
+.pull-right{
+  float: right;
+}
+.photoList{
+  padding: 0 100px;
+}
+.photoList-cnt{
+  display: flex;
+  & > div{
+    flex: 1;
+    padding: 20px;
+    img{
+      width: 100%;
+    }
+    p{
+      text-align: center;
+      & > a{
+        color: @color;
+        float: right;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }
+}
+.btnGroup{
+  width: 100%;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.outsource-form{
+  .el-col-8 .el-form-item__content{
+    width: 130px!important;
+  }
+}
